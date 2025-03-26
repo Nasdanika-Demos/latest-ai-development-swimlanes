@@ -1,0 +1,461 @@
+[
+    {
+        "identifiers": ["uuid:568f540f-a3a6-4990-838e-68397857a325"],
+        "name": "Nasdanika Demos",
+        "icon": "https://docs.nasdanika.org/images/nasdanika-logo.png",
+        "location": "https://github.com/Nasdanika-Demos",
+        "type": {
+            "name": "Action",
+            "ns-uri": "ecore://app.models.nasdanika.org"
+        }
+    },
+    {
+        "identifiers": ["uuid:1f39b3d2-1a6d-47b3-a94a-c56829e21423"],
+        "name": "Latest AI Development",
+        "icon": "https://crew-ai.models.nasdanika.org/images/navy.svg",
+        "location": "index.html",
+        "type": {
+            "name": "Crew",
+            "ns-uri": "ecore://nasdanika.org/models/crew-ai"
+        }
+    },
+    {
+        "container": {
+            "reference": "children",
+            "identifiers": ["uuid:61273bcd-5c09-4b0e-9fe7-7bbac6eac4f9"]
+        },
+        "identifiers": ["uuid:a2bc4e4b-37c8-43c4-bb7d-8394dc1eceac"],
+        "name": "Agents",
+        "icon": "https://crew-ai.models.nasdanika.org/images/software-agent.svg",
+        "location": "agents.html",
+        "type": {
+            "name": "Action",
+            "ns-uri": "ecore://app.models.nasdanika.org"
+        }
+    },
+    {
+        "container": {
+            "reference": "agents",
+            "identifiers": ["uuid:1f39b3d2-1a6d-47b3-a94a-c56829e21423"],
+            "name": "Latest AI Development"
+        },
+        "identifiers": ["uuid:c4028913-4c95-471b-bdea-dae2ed334ab2"],
+        "name": "Reporting Analyst",
+        "icon": "https://crew-ai.models.nasdanika.org/images/software-agent.svg",
+        "description": "You're a meticulous analyst with a keen eye for detail. You're known for\nyour ability to turn complex data into clear and concise reports, making\nit easy for others to understand and act on the information you provide.",
+        "location": "references/agents/reporting_analyst/index.html",
+        "type": {
+            "name": "Agent",
+            "ns-uri": "ecore://nasdanika.org/models/crew-ai"
+        }
+    },
+    {
+        "container": {
+            "reference": "decorator",
+            "identifiers": ["uuid:84fa66de-e588-4659-b04f-e1a5a469fe84"]
+        },
+        "identifiers": ["uuid:7474a00e-35e9-4779-912a-56f06f41b6b1"],
+        "icon": "far fa-question-circle",
+        "description": "Think of an agent as a specialized team member with specific skills, expertise, and responsibilities",
+        "type": {
+            "name": "Link",
+            "ns-uri": "ecore://app.models.nasdanika.org"
+        }
+    },
+    {
+        "container": {
+            "reference": "sections",
+            "identifiers": ["uuid:84fa66de-e588-4659-b04f-e1a5a469fe84"]
+        },
+        "identifiers": ["uuid:f3887470-a6db-4588-8877-4e7d8f0cb0b3"],
+        "name": "Backstory",
+        "icon": "https://crew-ai.models.nasdanika.org/images/cv.svg",
+        "location": "references/agents/reporting_analyst/index.html#backstory",
+        "type": {
+            "name": "Action",
+            "ns-uri": "ecore://app.models.nasdanika.org"
+        }
+    },
+    {
+        "container": {
+            "reference": "sections",
+            "identifiers": ["uuid:84fa66de-e588-4659-b04f-e1a5a469fe84"]
+        },
+        "identifiers": ["uuid:5b02aeeb-885b-4f57-91a3-b5913a5bcc03"],
+        "name": "Tasks",
+        "icon": "https://crew-ai.models.nasdanika.org/images/project-management.svg",
+        "location": "references/agents/reporting_analyst/index.html#uuid-5b02aeeb-885b-4f57-91a3-b5913a5bcc03",
+        "type": {
+            "name": "Action",
+            "ns-uri": "ecore://app.models.nasdanika.org"
+        }
+    },
+    {
+        "container": {
+            "reference": "navigation",
+            "identifiers": ["uuid:84fa66de-e588-4659-b04f-e1a5a469fe84"]
+        },
+        "identifiers": ["uuid:9c0c126e-8c41-4c0f-8b07-e472b7d597b6"],
+        "name": "Configuration",
+        "icon": "https://crew-ai.models.nasdanika.org/images/web-management.svg",
+        "location": "references/agents/reporting_analyst/configuration.html",
+        "type": {
+            "name": "Action",
+            "ns-uri": "ecore://app.models.nasdanika.org"
+        }
+    },
+    {
+        "container": {
+            "reference": "agents",
+            "identifiers": ["uuid:1f39b3d2-1a6d-47b3-a94a-c56829e21423"],
+            "name": "Latest AI Development"
+        },
+        "identifiers": ["uuid:537e6fe0-a18b-4d4c-80da-ed3176600f2a"],
+        "name": "Researcher",
+        "icon": "https://crew-ai.models.nasdanika.org/images/software-agent.svg",
+        "description": "You're a seasoned researcher with a knack for uncovering the latest\ndevelopments in {topic}. Known for your ability to find the most relevant\ninformation and present it in a clear and concise manner.\t\t\n",
+        "location": "references/agents/researcher/index.html",
+        "type": {
+            "name": "Agent",
+            "ns-uri": "ecore://nasdanika.org/models/crew-ai"
+        }
+    },
+    {
+        "container": {
+            "reference": "decorator",
+            "identifiers": ["uuid:b48f2c5e-48c0-49ea-9eaa-ffe285d6616c"]
+        },
+        "identifiers": ["uuid:e3c0ebc0-8c58-438e-8bb7-8c84b91a3bfd"],
+        "icon": "far fa-question-circle",
+        "description": "Think of an agent as a specialized team member with specific skills, expertise, and responsibilities",
+        "type": {
+            "name": "Link",
+            "ns-uri": "ecore://app.models.nasdanika.org"
+        }
+    },
+    {
+        "container": {
+            "reference": "sections",
+            "identifiers": ["uuid:b48f2c5e-48c0-49ea-9eaa-ffe285d6616c"]
+        },
+        "identifiers": ["uuid:71500e7c-7751-41c7-9a83-1f053aec22a7"],
+        "name": "Backstory",
+        "icon": "https://crew-ai.models.nasdanika.org/images/cv.svg",
+        "location": "references/agents/researcher/index.html#backstory",
+        "type": {
+            "name": "Action",
+            "ns-uri": "ecore://app.models.nasdanika.org"
+        }
+    },
+    {
+        "container": {
+            "reference": "sections",
+            "identifiers": ["uuid:b48f2c5e-48c0-49ea-9eaa-ffe285d6616c"]
+        },
+        "identifiers": ["uuid:36684929-d25a-45b7-a289-4adf841e0ec9"],
+        "name": "Tasks",
+        "icon": "https://crew-ai.models.nasdanika.org/images/project-management.svg",
+        "location": "references/agents/researcher/index.html#uuid-36684929-d25a-45b7-a289-4adf841e0ec9",
+        "type": {
+            "name": "Action",
+            "ns-uri": "ecore://app.models.nasdanika.org"
+        }
+    },
+    {
+        "container": {
+            "reference": "sections",
+            "identifiers": ["uuid:b48f2c5e-48c0-49ea-9eaa-ffe285d6616c"]
+        },
+        "identifiers": ["uuid:1afc81e2-809f-4225-81d3-1510e2075d0b"],
+        "name": "Tools",
+        "icon": "https://crew-ai.models.nasdanika.org/images/toolbox.svg",
+        "location": "references/agents/researcher/index.html#uuid-1afc81e2-809f-4225-81d3-1510e2075d0b",
+        "type": {
+            "name": "Action",
+            "ns-uri": "ecore://app.models.nasdanika.org"
+        }
+    },
+    {
+        "container": {
+            "reference": "navigation",
+            "identifiers": ["uuid:b48f2c5e-48c0-49ea-9eaa-ffe285d6616c"]
+        },
+        "identifiers": ["uuid:7213b18f-1466-4d09-a7bd-a354faf3edaa"],
+        "name": "Configuration",
+        "icon": "https://crew-ai.models.nasdanika.org/images/web-management.svg",
+        "location": "references/agents/researcher/configuration.html",
+        "type": {
+            "name": "Action",
+            "ns-uri": "ecore://app.models.nasdanika.org"
+        }
+    },
+    {
+        "container": {
+            "reference": "children",
+            "identifiers": ["uuid:61273bcd-5c09-4b0e-9fe7-7bbac6eac4f9"]
+        },
+        "identifiers": ["uuid:cfdcabfb-48cf-49e9-a71b-ddf4f634c99a"],
+        "name": "Tasks",
+        "icon": "https://crew-ai.models.nasdanika.org/images/project-management.svg",
+        "location": "tasks.html",
+        "type": {
+            "name": "Action",
+            "ns-uri": "ecore://app.models.nasdanika.org"
+        }
+    },
+    {
+        "container": {
+            "reference": "tasks",
+            "identifiers": ["uuid:1f39b3d2-1a6d-47b3-a94a-c56829e21423"],
+            "name": "Latest AI Development"
+        },
+        "identifiers": ["uuid:46a5ebb7-2afc-4ea5-a582-0e1fcfb584d3"],
+        "name": "Research",
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAACk0lEQVR4XqWTX0hTURzH70uIj9kQosJKxXJCpuhSEQnSSktX4vy/zTVzGiZJBaMWaKi0rKFOq5mYmZGlksZMapmsVmGlZWRJNdc2sz9GD4VJXfh2z30YzNu1Kz184P7OPedzf+ec76V8fXwN4mAxLQ4R438IXhNM+yzxMVBEFh8ejdj1G5CWlIbI0ADkSHMQFh6KxPhEFOcXC0IpU2JtQCBNETuRxQSuQ/LmZEjCliNjRwbEkSFI2JTAWciHUlaAoNVBoPxF/ohmOiRINkpwqFTrqRdDRFgE/JYuA5WRJcfISyfLs1dTcM/8Zp5dnjGh2J46kbpLDkqh0mDqK+3FwOAwIqNiYLGOYsvWFPYjWl0VchWFMJ5rR3aeCncfjHmteeumkZmj+buQQMYvXunDipWr0H1jEKbWTkjTs1BRfRopqemc+f8UVunrUXPSiI5r/aitM+FYpZ7t8HxbF3QVJ9A3cH9h4bh9BmbLI9ievGbrxy8cbC2E4ed2rlBeoMGR4y2IjkuG89McrvdbUc10yIfecBYGYwtL700rV5in2IueW5NI2qmC4+NPtLR3o2hfOS91Ta0Lb9l8+yF7k6fqmznnKQSOsNF0iTl0DfYUlbExIbdK3gmhqbmDFdbWd054hPnMGdrGaEizyuCYnkXb5V7sL9fyYjS1czrUVZ5xeYSlB7TYnVkMSVwiXF9+wf7hB3vzfLxzf+cIvbY88f4bLPdGMTw2ydbkNyS1EEbGXVyhQlWCg0cbERW7Dc7Pc+gxD6Fa38ALCX1NbSNLV98drjBPUQTz0DS2SwuZ2Myi+cJVKNUlvMxPg0eYK1fTZIAEufywjgltg9dEobxx0UiXqWlKJBIZiHR+FBaLLFtN+/mJDH8A8aZGAjyJmOsAAAAASUVORK5CYII=",
+        "description": "Conduct a thorough research about {topic}.\nMake sure you find any interesting\nand relevant information given the\ncurrent year is 2025.",
+        "location": "references/tasks/research_task/index.html",
+        "type": {
+            "name": "Task",
+            "ns-uri": "ecore://nasdanika.org/models/crew-ai"
+        }
+    },
+    {
+        "container": {
+            "reference": "agents",
+            "identifiers": ["uuid:1f39b3d2-1a6d-47b3-a94a-c56829e21423"],
+            "name": "Latest AI Development"
+        },
+        "identifiers": ["uuid:537e6fe0-a18b-4d4c-80da-ed3176600f2a"],
+        "name": "Researcher",
+        "icon": "https://crew-ai.models.nasdanika.org/images/software-agent.svg",
+        "description": "You're a seasoned researcher with a knack for uncovering the latest\ndevelopments in {topic}. Known for your ability to find the most relevant\ninformation and present it in a clear and concise manner.\t\t\n",
+        "type": {
+            "name": "Agent",
+            "ns-uri": "ecore://nasdanika.org/models/crew-ai"
+        }
+    },
+    {
+        "container": {
+            "reference": "decorator",
+            "identifiers": ["uuid:aaf5b63e-0b37-4fee-9d51-2d499b6485de"]
+        },
+        "identifiers": ["uuid:24fd7237-6fa1-49fb-9545-6d629e64217d"],
+        "icon": "far fa-question-circle",
+        "description": "A specific assignment completed by an Agent",
+        "type": {
+            "name": "Link",
+            "ns-uri": "ecore://app.models.nasdanika.org"
+        }
+    },
+    {
+        "container": {
+            "reference": "sections",
+            "identifiers": ["uuid:aaf5b63e-0b37-4fee-9d51-2d499b6485de"]
+        },
+        "identifiers": ["uuid:6acb66fc-4bc0-44c4-b99a-c43070f3a553"],
+        "name": "Description",
+        "icon": "https://crew-ai.models.nasdanika.org/images/instructions.svg",
+        "location": "references/tasks/research_task/index.html#description",
+        "type": {
+            "name": "Action",
+            "ns-uri": "ecore://app.models.nasdanika.org"
+        }
+    },
+    {
+        "container": {
+            "reference": "tasks",
+            "identifiers": ["uuid:1f39b3d2-1a6d-47b3-a94a-c56829e21423"],
+            "name": "Latest AI Development"
+        },
+        "identifiers": ["uuid:a77c1c38-41f7-4c10-96a2-5a59b5673e2f"],
+        "name": "Reporting",
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAYAAABvVQZ0AAACr0lEQVR4XqWUS0hUYRTHtZYtKogWUbQp6Cl6Z8ZCDct8pNhDanqglumd+78zPsZ8PyYzHQrtofTELColy1IsJlA3Ri2KHtAmrEXQskWbFrox6Ot/Rm7pMDpFBw53vo/z/e7/+59zJyoqTMSY5vK4wpIVkdJmGItDz84KzWVm2IBzdsM8ESltLvTFFhQsCWX8DsJyNd2zPq0Wr49fwZSVB9sw5XC5UmfW8qXmFl1fOXNvVliw9Hq8xw0oK3MvQonqmbVzwsSnmPz8RZk+fN5Rhcf0Y5nD41llN81NAqGqjVHNzQukNhZYK8+wMDFz/xl8z+/EZMMgVE0/VF4HJrNP4SMhCfSnhPB08YfPYzYDH+aESVfEl8KrUGV3ocxuKG8PVI7fGNd09zYa7Q0mgQQ3Umn2nLCd1XhW2QdVdR+q69106tehqh/gZ3IFLgSLeEWCajQgjzaMJpWjMywssxFf5Gr1A39gRheUbwgqpQaDArAZZnewOUWeNZ5bUM42vA0L2+x2Ly26hin6pJqeQNU+nIYdOItP0ghesdXuMg9LR7dXYmxeWFxR8eoj5/HDfRNKrltxD0oO7G3BV/GpvBcqoRRjvLbKOhkBFgQCdpmvfa34llaHV1xvkBGwA2nNAajEsn+AWUF/DAFbaypzp9YhYDPRn1KNQLwH/WxKgEofaYbhnx9GkzlbsXtOm28OtRvjkrt8aOdeMsHrNN1MkeTaEVkZYZz6ePHP6iy9G2ETmkQ1r52V5IWPe0MJZeiMCKMCLdGL5xkNxoDk1mJcImg3lZRy+p+yy8GxyfFD2Q0MyhcUygkGQUkyUyxqD0161OMAWi+/nFbc8UJgZiPr7zidzoWhLCuiwyVhbVR32z+MCYGxyxPyYmbLrNN/GdFUrtO3Uf5FDVPlCH8flf3Qwv+OX3aGnke5hbRQAAAAAElFTkSuQmCC",
+        "description": "Review the context you got and expand\neach topic into a full section for\na report. Make sure the report is\ndetailed and contains any and all\nrelevant information.",
+        "location": "references/tasks/reporting_task/index.html",
+        "type": {
+            "name": "Task",
+            "ns-uri": "ecore://nasdanika.org/models/crew-ai"
+        }
+    },
+    {
+        "container": {
+            "reference": "agents",
+            "identifiers": ["uuid:1f39b3d2-1a6d-47b3-a94a-c56829e21423"],
+            "name": "Latest AI Development"
+        },
+        "identifiers": ["uuid:c4028913-4c95-471b-bdea-dae2ed334ab2"],
+        "name": "Reporting Analyst",
+        "icon": "https://crew-ai.models.nasdanika.org/images/software-agent.svg",
+        "description": "You're a meticulous analyst with a keen eye for detail. You're known for\nyour ability to turn complex data into clear and concise reports, making\nit easy for others to understand and act on the information you provide.",
+        "type": {
+            "name": "Agent",
+            "ns-uri": "ecore://nasdanika.org/models/crew-ai"
+        }
+    },
+    {
+        "container": {
+            "reference": "decorator",
+            "identifiers": ["uuid:176e08a0-e5e3-4b8a-8e93-f5a6f2a971e4"]
+        },
+        "identifiers": ["uuid:fca4b213-fa8a-434c-8fc1-ebe7381f47cf"],
+        "icon": "far fa-question-circle",
+        "description": "A specific assignment completed by an Agent",
+        "type": {
+            "name": "Link",
+            "ns-uri": "ecore://app.models.nasdanika.org"
+        }
+    },
+    {
+        "container": {
+            "reference": "sections",
+            "identifiers": ["uuid:176e08a0-e5e3-4b8a-8e93-f5a6f2a971e4"]
+        },
+        "identifiers": ["uuid:cd6fdb84-34ee-4607-baec-376b57f35abf"],
+        "name": "Description",
+        "icon": "https://crew-ai.models.nasdanika.org/images/instructions.svg",
+        "location": "references/tasks/reporting_task/index.html#description",
+        "type": {
+            "name": "Action",
+            "ns-uri": "ecore://app.models.nasdanika.org"
+        }
+    },
+    {
+        "container": {
+            "reference": "sections",
+            "identifiers": ["uuid:176e08a0-e5e3-4b8a-8e93-f5a6f2a971e4"]
+        },
+        "identifiers": ["uuid:64441c59-d7db-449a-9ccc-ce2afa8842bd"],
+        "name": "Context",
+        "icon": "https://crew-ai.models.nasdanika.org/images/task.svg",
+        "location": "references/tasks/reporting_task/index.html#uuid-64441c59-d7db-449a-9ccc-ce2afa8842bd",
+        "type": {
+            "name": "Action",
+            "ns-uri": "ecore://app.models.nasdanika.org"
+        }
+    },
+    {
+        "container": {
+            "reference": "navigation",
+            "identifiers": ["uuid:176e08a0-e5e3-4b8a-8e93-f5a6f2a971e4"]
+        },
+        "identifiers": ["uuid:caea9e09-846f-4441-b682-a59b44a7cdfb"],
+        "name": "Configuration",
+        "icon": "https://crew-ai.models.nasdanika.org/images/web-management.svg",
+        "location": "references/tasks/reporting_task/configuration.html",
+        "type": {
+            "name": "Action",
+            "ns-uri": "ecore://app.models.nasdanika.org"
+        }
+    },
+    {
+        "container": {
+            "reference": "children",
+            "identifiers": ["uuid:61273bcd-5c09-4b0e-9fe7-7bbac6eac4f9"]
+        },
+        "identifiers": ["uuid:578cd76d-6932-4bc4-80c8-ef1356ed4955"],
+        "name": "Tools",
+        "icon": "https://crew-ai.models.nasdanika.org/images/toolbox.svg",
+        "location": "tools.html",
+        "type": {
+            "name": "Action",
+            "ns-uri": "ecore://app.models.nasdanika.org"
+        }
+    },
+    {
+        "container": {
+            "reference": "tools",
+            "identifiers": ["uuid:1f39b3d2-1a6d-47b3-a94a-c56829e21423"],
+            "name": "Latest AI Development"
+        },
+        "identifiers": ["uuid:0d722340-6d34-4309-b5da-c83613ff07e6"],
+        "name": "Serper",
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAC6klEQVR4Xo2VTUwTURDHt25LQmxpU9oGjGdQYiRSpGDKblsggRbtF3Lw4F1Fg1QPRhNUVPRiSPmQeNDEj4gXgVbUBBNAQKBQIERjbPDjbkSKTQxqMs6s2aUsa+M/mWbfzsxv570375VhGGanyWR6y7JsGJ+NzP+pKCcnJ8LxjpRarf6K4zzJQ7AXwy/hYd9jsFpLyWmTnMoqOmC3r76emQV/IPgTx/5NXqysk2ALS28gOvQc8FXHpgCZDAZDdGYuDsdONFFso8y9g35yqTKCEdTr89NXg7JAUSpXVVUq8eETXLzcRkB3mq9BrdF8EQflaB0Em51fhEM+37+gLO90rROQppyVlTWF7zxoRxoON/6q5LikPCEoQr1boSwC7nXf6gUCkk3F5uBS2xVoOnkKJqdjoNPp+tPiJSlBJdjYxCQcx/UToSLYVlHxDeN2yViSJOjV9hufs7OzH4gwnBaMT05BZ3cP8A7HD4fTuYYtNMBkgIkKXkOYzx8AATZOMF6Ahbu6af3uYAwrT8okVqkygmk0mmH0b5MnZNLGmgmVbcDKa/Oh0Gqgtd0rT1KSipFtQPo0CdYesUExl/sb40JoXlm+pN14AiIuV1WKdzrXlaZZXvcXdj1qgwv3S+Do+QIorTZTpYEtMI7nV2PxeXiXWBaMWoFaI33NaJpUGcGabu6Bc3f3Qftg2VYoXg6D1B7Np1tApVINkDW3hARouKtH3E3agGK0EFVGsIISvTLU7fGkRsbGQavVPhE/gs/9I68mhD5jNreG14rJBJFD6T1DZ9tTf/D7KCZrtTpqTkF4hAZHcXcdTtdaGkxUQA5t7bPC/po8MJnNCcZisQzEF5eg5cxZwMsyivY0hM/Ts3HQ6/WKZ5NJg7Y+skJZTT50hDuB4/h1chZWV9esEPT98kfBYvEFsNsrV8gnA6VLgBKsp/c2RIaewXadLiI6C00mS7/bU5+srXMnjUYjrWcmmCi32WxJ0JVGfwk4tvwBUNPNSh4I2+MAAAAASUVORK5CYII=",
+        "description": "Searches Internet",
+        "location": "references/tools/serper/index.html",
+        "type": {
+            "name": "Tool",
+            "ns-uri": "ecore://nasdanika.org/models/crew-ai"
+        }
+    },
+    {
+        "container": {
+            "reference": "decorator",
+            "identifiers": ["uuid:6ed88d77-f5ec-4af0-9f4d-c26fb7bda78a"]
+        },
+        "identifiers": ["uuid:d1b45165-778d-4320-a061-65fe7e2f0c0e"],
+        "icon": "far fa-question-circle",
+        "description": "A skill or function that agents can utilize to perform various actions",
+        "type": {
+            "name": "Link",
+            "ns-uri": "ecore://app.models.nasdanika.org"
+        }
+    },
+    {
+        "container": {
+            "reference": "sections",
+            "identifiers": ["uuid:6ed88d77-f5ec-4af0-9f4d-c26fb7bda78a"]
+        },
+        "identifiers": ["uuid:d0652485-6a2a-46c9-9cc2-042c98e3abcd"],
+        "name": "Agents",
+        "icon": "https://crew-ai.models.nasdanika.org/images/software-agent.svg",
+        "location": "references/tools/serper/index.html#uuid-d0652485-6a2a-46c9-9cc2-042c98e3abcd",
+        "type": {
+            "name": "Action",
+            "ns-uri": "ecore://app.models.nasdanika.org"
+        }
+    },
+    {
+        "container": {
+            "reference": "navigation",
+            "identifiers": ["uuid:6ed88d77-f5ec-4af0-9f4d-c26fb7bda78a"]
+        },
+        "identifiers": ["uuid:c09be3d7-1025-4500-8bb0-685136fd8e79"],
+        "name": "Code",
+        "icon": "https://crew-ai.models.nasdanika.org/images/script.svg",
+        "location": "references/tools/serper/code.html",
+        "type": {
+            "name": "Action",
+            "ns-uri": "ecore://app.models.nasdanika.org"
+        }
+    },
+    {
+        "container": {
+            "reference": "sections",
+            "identifiers": ["uuid:c09be3d7-1025-4500-8bb0-685136fd8e79"]
+        },
+        "identifiers": ["uuid:56a35142-ad99-4848-9ae0-0ac2afd747b8"],
+        "name": "Imports",
+        "location": "references/tools/serper/code.html#uuid-56a35142-ad99-4848-9ae0-0ac2afd747b8",
+        "type": {
+            "name": "Action",
+            "ns-uri": "ecore://app.models.nasdanika.org"
+        }
+    },
+    {
+        "container": {
+            "reference": "decorator",
+            "identifiers": ["uuid:61273bcd-5c09-4b0e-9fe7-7bbac6eac4f9"]
+        },
+        "identifiers": ["uuid:5e4b82e2-fe5d-4ffe-975b-07ade3791d47"],
+        "icon": "far fa-question-circle",
+        "description": "A collaborative group of agents working together to complete a set of tasks",
+        "type": {
+            "name": "Link",
+            "ns-uri": "ecore://app.models.nasdanika.org"
+        }
+    },
+    {
+        "container": {
+            "reference": "navigation",
+            "identifiers": ["uuid:568f540f-a3a6-4990-838e-68397857a325"]
+        },
+        "identifiers": ["uuid:89e36470-08b2-4c28-abde-ea019a875984"],
+        "name": "Source",
+        "icon": "fab fa-github",
+        "location": "https://github.com/Nasdanika-Demos/latest-ai-development",
+        "type": {
+            "name": "Action",
+            "ns-uri": "ecore://app.models.nasdanika.org"
+        }
+    }
+]

@@ -1,0 +1,15 @@
+type: Task
+features:
+  container:
+    other: 
+      tasks:
+        path: 2
+        comparator: right-down
+  contents:
+    self: 
+      agent:
+        path: 1
+doc-ref: tasks/research.md
+configuration:
+  task-description: ${tooltip}
+  expected-output: A list with 10 bullet points of the most relevant information about {topic}

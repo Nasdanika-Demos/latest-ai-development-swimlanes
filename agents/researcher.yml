@@ -1,0 +1,21 @@
+type: Agent
+features:
+  container:
+    other: 
+      agents:
+        path: 1
+        comparator: down-right
+configuration:
+  backstory: ${tooltip}
+  configuration: |
+    role: >
+      {topic} Senior Data Researcher
+    goal: >
+      Uncover cutting-edge developments in {topic}
+documentation: |
+  This is an example of in-line documentation
+
+  ```java
+  int z = 99;
+  ```
+
