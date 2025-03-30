@@ -6,5 +6,5 @@ Action:
       - Action:
           text: Source
           icon: fab fa-github
-          location: https://github.com/Nasdanika-Demos/latest-ai-development
+          location: https://github.com/Nasdanika-Demos/latest-ai-development-swimlanes
           
